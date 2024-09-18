@@ -60,10 +60,10 @@ class _NoteViewState extends State<NoteView> {
                   borderRadius: BorderRadius.circular(20)),
               context: context,
               builder: (context) {
-                return AddNoteButtonSheet();
+                return const AddNoteButtonSheet();
               });
         },
-        child: Icon(Icons.add),
+        child: const Icon(Icons.add),
       ),
     );
   }
